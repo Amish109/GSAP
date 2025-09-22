@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Column Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #007bff;
+      color: white;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    /* Two column section (half-half) */
+    .two-column {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 80%;
+      margin: 40px auto;
+      padding: 20px;
+      gap: 30px;
+      flex-wrap: wrap; /* Makes it responsive */
+    }
+
+    .two-column .text {
+      flex: 1;
+    }
+
+    .two-column .text h2 {
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+
+    .two-column img {
+      flex: 1;
+      max-width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Sample Page</h1>
+    <p>A simple page with text on the left and an image on the right</p>
+  </header>
+
+  <!-- Two column section -->
+  <div class="two-column">
+    <div class="text">
+      <h2>About This Section</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Duis sagittis justo at libero egestas, nec gravida neque rhoncus. 
+      Fusce id nibh at erat suscipit vehicula sit amet non arcu.</p>
+      <p>Proin sed eros mi. Cras vel nunc at lacus sagittis tincidunt.</p>
+    </div>
+    <img src="https://m.media-amazon.com/images/I/61VFSrqQ9FS._UF894,1000_QL80_.jpg" alt="Right Side Image">
+  </div>
+
+</body>
+</html>
