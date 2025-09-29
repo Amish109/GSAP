@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root{
+    --color-primary-bg : black;
+}
+
+@theme{
+    --color-primary-bg : black;
+}
+
+body{
+    background-color: var(--color-primary-bg);
+}
+
+main>div{
+    padding-left: 14%;
+    padding-right: 14%;
+}
