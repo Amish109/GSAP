@@ -5,15 +5,17 @@ const HomePage = () => {
   return (
     <main className="!relative">
       <Content/>
-      <div className="h-screen">
-
+      {/* <ScrollVideo/> */}
+      <div className="h-screen !bg-red-300">
+        Test 1 Hello
       </div>
-      <div className="h-screen">
-
+      <div className="h-screen !bg-red-300 border border-t-2">
+        Test 2 Hello
       </div>
-      <div className="h-screen">
-
+      <div className="h-screen !bg-red-300 border border-t-2">
+        Test 3 Hello
       </div>
+
     </main>
   )
 }

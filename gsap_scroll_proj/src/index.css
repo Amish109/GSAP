@@ -12,7 +12,7 @@ body{
     background-color: var(--color-primary-bg);
 }
 
-main>div{
+main>div,.padding-custom{
     padding-left: 14%;
     padding-right: 14%;
 }
